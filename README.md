@@ -1,1 +1,3 @@
 # PythonWebScraping
+
+This project is a simple Python-based web scraper that pulls text content (like news snippets or updates) from the official BCCI website. It uses the requests library to fetch the page and BeautifulSoup to parse the HTML, extracting all paragraph elements from the site. The extracted content is then saved into a CSV file using pandas, making it easy to read or analyze later. It’s a lightweight script designed to demonstrate basic web scraping, perfect for learning or small-scale data collection. Keep in mind that the BCCI website is dynamically loaded, so some key content might not appear unless more advanced tools like Selenium are used.
